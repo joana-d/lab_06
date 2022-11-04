@@ -80,9 +80,6 @@ ggplot(data = df) +
 
 ### Exercise 4
 
-<<<<<<< HEAD
-*Add your narrative here.*
-=======
 The information shows that the trend of wearing masks was at its peak at
 the start of the pandemic. From this it trends downwards slowly loosing
 popularity as the months continued on wards. There is a small peak along
@@ -93,4 +90,3 @@ start compared to the finish shows a great range going from 25.5 per
 However, the number of countries that don’t wear masks (no masks) makes
 a very steady line going across the graph from one side to the other
 with not many increases or decreases in the number of none mask wearers.
->>>>>>> 3ff7be5664c1fc2586ce928e94ced04d9f3a94ce
