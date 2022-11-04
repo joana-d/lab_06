@@ -54,12 +54,17 @@ df
 
 ```{r better-viz}
 ggplot(data = df) +
-  geom_line(mapping = aes(x = date, y = mask_count), color = "red")+
-  geom_line(mapping = aes(x = date, y = no_mask_count), color = "blue") +
+  geom_line(mapping = aes(x = date, y = mask_count, color = "No Mask"))+
+  geom_line(mapping = aes(x = date, y = no_mask_count, color = "Mask")) +
+  scale_color_manual(name = NULL,
+                   breaks=c('Mask', 'No Mask'),
+                  values=c('Mask'='Red', 'No Mask'='blue'))+
   labs(x = "Date", 
        y = "Rolling Average of Daily Cases Per 100K Population",
        title = "Kansas COVID-19 Cases",
-       subtitle = "By Mask and No-mask Counties")
+       subtitle = "By Mask and No-mask Mandated Counties",
+       colour = NULL)
+
 
 ```
 
