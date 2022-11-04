@@ -55,7 +55,11 @@ df
 ```{r better-viz}
 ggplot(data = df) +
   geom_line(mapping = aes(x = date, y = mask_count), color = "red")+
-  geom_line(mapping = aes(x = date, y = no_mask_count), color = "blue")
+  geom_line(mapping = aes(x = date, y = no_mask_count), color = "blue") +
+  labs(x = "Date", 
+       y = "Rolling Average of Daily Cases Per 100K Population",
+       title = "Kansas COVID-19 Cases",
+       subtitle = "By Mask and No-mask Counties")
 
 ```
 
@@ -67,6 +71,4 @@ ggplot(data = df) +
 
 ### Exercise 4
 
-The information shows that the trend of wearing masks was at its peak at the start of the pandemic. From this it trends downwards slowly loosing popularity as the months continued onwards. There is a small peak along the way which could be caused by spikes in the virous and people wanting to be safer. The range of the amount of people who wore masks at the start compared to the finish shows a great range going from 25.5 per 100k to begin with down to 16 per 100k, showing a range of 9.5 per 100k. 
-However, the number of countries that don’t wear masks (no masks) makes a very steady line going across the graph from one side to the other with not many increases or decreases in the number of none mask wearers.
-
+*Add your narrative here.*
