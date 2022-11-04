@@ -80,7 +80,9 @@ ggplot(data = df) +
 
 ### Exercise 3
 
-*Add your narrative here.*
+What our data visualisation shows (which can’t be seen in the one given
+to us in the question) is that counties where masks are mandated always
+have a lower covid case count than those where masks aren’t mandated.
 
 ### Exercise 4
 
