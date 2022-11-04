@@ -1,11 +1,12 @@
 Lab 06 - Conveying the right message through visualisation
 ================
-i-seeaspaceshipinthe-sky
+i_see_a\_spaceship_in_the_sky
 
 ### Load packages and data
 
 ``` r
 library(tidyverse) 
+library(lubridate)
 ```
 
 ### Exercise 1
@@ -38,13 +39,29 @@ df <- tribble(
   "8/3/2020", 16, 20
 
 )
+
+df <- df %>%
+  mutate(date = mdy(date))
+
+df
 ```
+
+    ## # A tibble: 23 × 3
+    ##    date       mask_count no_mask_count
+    ##    <date>          <dbl>         <dbl>
+    ##  1 2020-07-12       25.5           9.9
+    ##  2 2020-07-13       19.8           9  
+    ##  3 2020-07-14       19.6           9.4
+    ##  4 2020-07-15       20.4           9.9
+    ##  5 2020-07-16       20            10  
+    ##  6 2020-07-17       20             9.5
+    ##  7 2020-07-18       20.4           9.4
+    ##  8 2020-07-19       20             9.1
+    ##  9 2020-07-20       20.5           8.6
+    ## 10 2020-07-21       21.3           8.6
+    ## # … with 13 more rows
 
 ### Exercise 2
-
-``` r
-# add code here
-```
 
 ### Exercise 3
 

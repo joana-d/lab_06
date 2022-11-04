@@ -1,6 +1,6 @@
 ---
 title: "Lab 06 - Conveying the right message through visualisation"
-author: [i-seeaspaceshipinthe-sky]
+author: [i_see_a_spaceship_in_the_sky]
 output: github_document
 ---
 
@@ -8,6 +8,7 @@ output: github_document
 
 ```{r load-packages, message=FALSE}
 library(tidyverse) 
+library(lubridate)
 ```
 
 
@@ -41,13 +42,19 @@ df <- tribble(
   "8/3/2020", 16, 20
 
 )
+
+df <- df %>%
+  mutate(date = mdy(date))
+
+df
+  
 ```
 
 
 ### Exercise 2
 
 ```{r better-viz}
-# add code here
+
 ```
 
 
