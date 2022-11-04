@@ -1,6 +1,6 @@
 ---
 title: "Lab 06 - Conveying the right message through visualisation"
-author: [TEAM NAME]
+author: [i-seeaspaceshipinthe-sky]
 output: github_document
 ---
 
@@ -32,7 +32,13 @@ df <- tribble(
   "7/25/2020", 19, 10,
   "7/26/2020", 19.7, 10.1,
   "7/27/2020", 17, 9.4,
-
+  "7/28/2020", 16.6, 20.8,
+  "7/29/2020", 16.7, 20.8,
+  "7/30/2020", 16.8, 21,
+  "7/31/2020", 16.1, 19.8,
+  "8/1/2020", 16.2, 19.9,
+  "8/2/2020", 15.9, 19.8,
+  "8/3/2020", 16, 20
 
 )
 ```
