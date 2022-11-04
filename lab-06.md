@@ -78,8 +78,8 @@ ggplot(data = df) +
 
 The information shows that the trend of wearing masks was at its peak at
 the start of the pandemic. From this it trends downwards slowly loosing
-popularity as the months continued onwards. There is a small peak along
-the way which could be caused by spikes in the virous and people wanting
+popularity as the months continued on wards. There is a small peak along
+the way which could be caused by spikes in the virus and people wanting
 to be safer. The range of the amount of people who wore masks at the
 start compared to the finish shows a great range going from 25.5 per
 100k to begin with down to 16 per 100k, showing a range of 9.5 per 100k.
